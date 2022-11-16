@@ -1,0 +1,33 @@
+body{
+    color: black;
+    margin: 0;
+}
+
+.home{
+    display: flex;
+}
+
+.options{
+    color: white;
+    display: inline-block;
+    width: 180px;
+    height: 780px;
+    background-color: #03045f;
+}
+
+.header{
+    margin-left: 20px;
+}
+
+a:link, a:visited {
+    background-color: #03045f;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+a:hover, a:active {
+    background-color: red;
+  }
